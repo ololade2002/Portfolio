@@ -14,17 +14,17 @@ const About = () => {
     <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
    <div className="flex flex-col gap-4">
    <h2 className="text-4xl font-medium">About Me.</h2>
-   <p>Hello, I'm Ololade Eleja,a passionate and skilled Front-end Developer with a creative flair for crafting
+   <p>Hello, I&apos;m Ololade Eleja,a passionate and skilled Front-end Developer with a creative flair for crafting
     engaging and user-friendly web experiences. I am constantly seeking new challenges and opportunities to improve my craft.
    </p>
    
-   <p>Outside of programming, I'm currently pursuing a degree in Petroleum And Gas Engineering at the University Of Lagos,Akoka. While my academic focus lies in the world of Petroleum Engineering, my curiosity
-    and love for technology have led me to explore the dynamic realm of web development . I believe that the skills I'm acquiring in Engineering, such as
+   <p>Outside of programming, I&apos;m currently pursuing a degree in Petroleum And Gas Engineering at the University Of Lagos,Akoka. While my academic focus lies in the world of Petroleum Engineering, my curiosity
+    and love for technology have led me to explore the dynamic realm of web development . I believe that the skills I&apos;m acquiring in Engineering, such as
     problem-solving, critical thinking, and attention to details, are a powerful complement to my burgeoning web development expertise.
    </p>
 
    <p>I embrace the challenge of juggling coursework with my web development journey, as it fuels my determination  to excel in both 
-    fields. I'm eager to continue learning , growing, and exploring new horizons. I'm committed to delivering
+    fields. I&apos;m eager to continue learning , growing, and exploring new horizons. I&apos;m committed to delivering
     solutions that not only meet but exceed expectations.
    </p>
    </div>

@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
     <div>
     <h2 className=" text-4xl font-medium">Get in touch</h2>
-    <p className="pt-3 pb-10">Thank you for visiting my portfolio! If you'd like to get in touch, I'd love to hear from you.
+    <p className="pt-3 pb-10">Thank you for visiting my portfolio! If you&apos;d like to get in touch, I&apos;d love to hear from you.
     Whether you have a project in mind, a job opportunity, or just want to say hello, 
     feel free to reach out .</p>
 

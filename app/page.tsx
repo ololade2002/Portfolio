@@ -8,11 +8,11 @@ export default function Home() {
    <div className="flex flex-col  justify-center gap-4">
    <h2 className="text-[2.8rem] font-[700]">Ololade Eleja .</h2>
  
-   <p className=" leading-8">Hi, I'm Ololade Eleja, a passionate Frontend Developer with a knack 
+   <p className=" leading-8">Hi, I&apos;m Ololade Eleja, a passionate Frontend Developer with a knack 
     for crafting immersive web experiences. I thrive on turning creative ideas into polished,
      user-friendly websites that not only look great but also function seamlessly.
      With 1 year and some months of hands-on experience in the ever-evolving world of web development,
-      I'm dedicated to staying at the forefront of cutting-edge technologies to deliver top-notch solutions.</p>
+      I&apos;m dedicated to staying at the forefront of cutting-edge technologies to deliver top-notch solutions.</p>
    
 
    <div className="flex flex-row gap-4 py-5">

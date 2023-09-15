@@ -162,7 +162,7 @@ const Project = () => {
     <div className='w-full sm:w-6/12 lg:w-full'>
     <p className='lg:pt-6 pb-3 text-xl'>Modern Payment Website</p>
     <p className=' pb-3'>This visually engaging and responsive platform introduces users to the future of seamless, secure, and convenient digital payments. 
-    With a focus on user experience, it showcases the platform's key features and benefits.</p>
+    With a focus on user experience, it showcases the platform&apos;s key features and benefits.</p>
      <div className='flex flex-row flex-wrap gap-3 pb-4'>
      <div className=' px-2 py-1 text-[13px] rounded-md bg-slate-500'>React JS</div>   
      <div className=' px-2 py-1 text-[13px] rounded-md bg-slate-500'>Vanilla CSS</div>
