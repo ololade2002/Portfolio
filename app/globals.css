@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 0, 0, 0,0.2;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -16,6 +16,7 @@
   }
 }
 
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +25,65 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.logo {
+  filter: invert(100);
+}
+.webLink {
+  display: flex;
+  gap: 2rem;
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+display: none;
+}
+
+@media screen and (max-width:768px) {
+  .nav {
+      margin: 0rem 0rem;
+      position: relative;
+      align-items: center;
+  }
+  .menu {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;  
+}
+.webLink {
+  display: none;
+}
+.menu>svg {
+  font-size: 1.9rem;
+  position: relative;
+  z-index: 4;
+}
+.mobileLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0rem;
+  position: absolute;
+  background-color: #000;
+  z-index: 4;
+  width: 100%;
+  height: 100vh;
+  font-size: 22px;
+  gap: 2rem;
+  top: 0rem;
+  left: 0;
+}
+}
+
+@media screen and (max-width: 600px) {
+.img-box {
+  display: none;
+}
+}
+.width-f {
+  width: fit-content;
 }
