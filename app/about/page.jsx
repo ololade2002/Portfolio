@@ -19,7 +19,7 @@ const About = () => {
    </p>
    
    <p>Outside of programming, I&apos;m currently pursuing a degree in Petroleum And Gas Engineering at the University Of Lagos,Akoka. While my academic focus lies in the world of Petroleum Engineering, my curiosity
-    and love for technology have led me to explore the dynamic realm of web development . I believe that the skills I&apos;m acquiring in Engineering, such as
+    and love for technology have led me to explore the dynamic realm of web development . I believe that the skills I am acquiring in Engineering, such as
     problem-solving, critical thinking, and attention to details, are a powerful complement to my burgeoning web development expertise.
    </p>
 
