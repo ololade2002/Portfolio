@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Link from "next/link"
 import {BsGithub} from 'react-icons/bs'
 import {FaHtml5, FaReact} from 'react-icons/fa'
 import {SiBootstrap, SiRedux, SiSanity, SiStyledcomponents, SiTailwindcss} from 'react-icons/si'
@@ -8,10 +7,14 @@ import {IoLogoCss3, IoLogoJavascript} from 'react-icons/io5'
 import {TbBrandNextjs} from 'react-icons/tb'
 import {BiGitBranch} from 'react-icons/bi'
 
+
 const About = () => {
   return (
     <div>
-    <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
+
+  
+
+  <div className=" md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
    <div className="flex flex-col gap-4">
    <h2 className="text-4xl font-medium">About Me.</h2>
    <p>Hello, I&apos;m Ololade Eleja,a passionate and skilled Front-end Developer with a creative flair for crafting

@@ -10,7 +10,7 @@ const Navbar = () => {
   const [mobile,setMobile] = useState(false)
 
   return (
-  <div>
+  <div className='relative z-50'>
      <div className='px-4 sm:px-8 md:px-12 lg:px-2 md:max-w-7xl mx-auto py-6 '>
      <div>
       

@@ -1,10 +1,16 @@
+import Image from "next/image"
 import Link from "next/link"
+import img from '@/public/bg1.jpg'
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai"
 
 export default function Home() {
   return (
-   <div>
-   <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
+   <div className="">
+    <div className="absolute top-0 left-0 w-[100%] z-0 ">
+    <Image className="w-[100%]  object-cover" src={img} alt="img"/> 
+    </div>
+
+   <div className="relative z-50 md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
    <div className="flex flex-col  justify-center gap-4">
    <h2 className="text-[2.8rem] font-[700]">Ololade Eleja .</h2>
  
