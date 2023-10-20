@@ -16,6 +16,8 @@ import img8 from '@/public/hoobank3.png'
 import img9 from '@/public/hoobank.png'
 import img10 from '@/public/nftlanding.png'
 import img11 from '@/public/nftlanding.png'
+import cowboy2 from '@/public/Cowboy - Electric Bike1.png'
+import cowboy1 from '@/public/standard_resolution5.jpg'
 
 const Project = () => {
   return (
@@ -29,15 +31,15 @@ const Project = () => {
     <div className="project-body">
 
     <div className="entire-studios flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24 ">
-    <div className='w-full lg:w-8/12 '>
-    <Image className='sm:h-[85vh]  rounded-lg object-cover' src={entire} alt='Entire-studios'/>
+    <div className='w-full rounded-lg relative overflow-hidden lg:w-8/12 '>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] rounded-lg object-cover' src={entire} alt='Entire-studios'/>
     <div>  
     </div>
     </div>
 
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col '>
-    <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg sm:h-[65vh] img-box object-cover lg:h-[40vh]' src={img1} alt='Entire-studios'/>   
+    <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg sm:h-[65vh] hover:scale-105 transition duration-[0.9s] img-box object-cover lg:h-[40vh]' src={img1} alt='Entire-studios'/>   
     </div>   
      
     <div className='w-full sm:w-6/12  lg:w-full'>
@@ -57,22 +59,52 @@ const Project = () => {
      </div>
 
     </div>  
+    </div> 
+
+    <div className="cowboy flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24  ">
+    <div className='w-full rounded-lg relative overflow-hidden img-box lg:w-8/12 '>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] rounded-lg object-cover ' src={cowboy1} alt='Home Rental Website'/>
+    <div>  
+    </div>
+    </div>
+
+    <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col '>
+    <div className='w-full rounded-lg relative overflow-hidden  sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg hover:scale-105 transition duration-[0.9s]  sm:h-[65vh] object-cover lg:h-[40vh]' src={cowboy2} alt='Home Rental Website'/>    
+    </div>
+    <div className=' w-full sm:w-6/12 lg:w-full '>
+    <p className='lg:pt-6 pb-3 text-xl'>Ecommerce Website</p>
+    <p className=' pb-3'>The electric bike website clone successfully recreated the core features of the original site,
+     demonstrating my proficiency in web development and design. The project is a testament to my ability to work with 
+     various technologies and create user-friendly, responsive, and secure web applications. .</p>
+     <div className='flex flex-row flex-wrap  gap-3 pb-4'>
+     <div className=' px-2 py-1 text-[13px] rounded-md bg-slate-500'>Next JS</div>   
+     <div className=' px-2 py-1 text-[13px] rounded-md bg-slate-500'>Tailwind CSS</div>
+     <div className=' px-2 py-1 text-[13px] rounded-md bg-slate-500'>Animate On Scroll</div>
+    </div>
+    <div className='flex flex-row items-center gap-5 '>
+     <Link href='https://github.com/ololade2002/Cowboy' target='_blank' rel="noopener noreferrer" className='flex gap-2 items-center hover:text-blue-500 '>Code <AiOutlineGithub/></Link>   
+     <Link href='https://cowboy-clone.vercel.app/' target='_blank' rel="noopener noreferrer" className='flex gap-2 items-center hover:text-blue-500 '>Live Demo <FiExternalLink/></Link>   
+    </div>
+    </div>
+
+    </div>  
     </div>  
 
-    <div className="reykjavik flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24 ">
-    <div className='w-full img-box lg:w-8/12'>
-    <Image className='sm:h-[85vh]  rounded-lg  object-cover' src={img2} alt='Entire-studios'/>
+    <div className="reykjavik flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24 ">
+    <div className='w-full rounded-lg relative overflow-hidden img-box lg:w-8/12'>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] rounded-lg  object-cover' src={img2} alt='Entire-studios'/>
     <div>  
     </div>
     </div>
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col'>
-    <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg sm:h-[65vh]  object-cover lg:h-[40vh]' src={img3} alt='Entire-studios'/>    
+    <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg sm:h-[65vh] hover:scale-105 transition duration-[0.9s] object-cover lg:h-[40vh]' src={img3} alt='Entire-studios'/>    
     </div>
    
     <div className='w-full sm:w-6/12 lg:w-full'>
     <p className='lg:pt-6 pb-3 text-xl'>Interior Decor Website</p>
-    <p className=' pb-3'>This website showcases an exquisite collection of differnt interior 
+    <p className=' pb-3'>This website showcases an exquisite collection of different interior 
     decorations, seamlessly blending aesthetics and functionality. With an elegant design, 
     intuitive navigation, and captivating project galleries, it serves as an immersive platform
      for design enthusiasts.</p>
@@ -89,16 +121,16 @@ const Project = () => {
     </div>  
     </div>  
     
-    <div className="mlc flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24  ">
-    <div className='w-full img-box lg:w-8/12 '>
-    <Image className='sm:h-[85vh]  rounded-lg object-cover' src={img5} alt='Home Rental Website'/>
+    <div className="mlc flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24  ">
+    <div className='w-full rounded-lg relative overflow-hidden img-box lg:w-8/12 '>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] rounded-lg object-cover' src={img5} alt='Home Rental Website'/>
     <div>  
     </div>
     </div>
 
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col '>
-    <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg  sm:h-[65vh] object-cover lg:h-[40vh]' src={img4} alt='Home Rental Website'/>    
+    <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg hover:scale-105 transition duration-[0.9s] sm:h-[65vh] object-cover lg:h-[40vh]' src={img4} alt='Home Rental Website'/>    
     </div>
     <div className=' w-full sm:w-6/12 lg:w-full '>
     <p className='lg:pt-6 pb-3 text-xl'>Home Rental Website</p>
@@ -118,16 +150,16 @@ const Project = () => {
     </div>  
     </div> 
 
-    <div className="eraf flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24 ">
-    <div className='w-full lg:w-8/12 '>
-    <Image className='sm:h-[85vh]  rounded-lg object-cover' src={img6} alt='Photography Landing Page'/>
+    <div className="eraf flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24 ">
+    <div className='w-full rounded-lg relative overflow-hidden lg:w-8/12 '>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] rounded-lg object-cover' src={img6} alt='Photography Landing Page'/>
     <div>  
     </div>
     </div>
 
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col'>
-     <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg img-box sm:h-[65vh] object-cover lg:h-[40vh]' src={img7} alt='Photography Landing Page'/>    
+     <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg hover:scale-105 transition duration-[0.9s] img-box sm:h-[65vh] object-cover lg:h-[40vh]' src={img7} alt='Photography Landing Page'/>    
      </div>
 
     <div className='w-full sm:w-6/12 lg:w-full'>
@@ -147,16 +179,16 @@ const Project = () => {
     </div>  
     </div> 
 
-    <div className="hoobank flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24">
-    <div className='w-full lg:w-8/12 '>
-    <Image className='sm:h-[85vh] img-box  rounded-lg object-cover' src={img8} alt='Modern Payment Website'/>
+    <div className="hoobank flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24">
+    <div className='w-full rounded-lg relative overflow-hidden lg:w-8/12 '>
+    <Image className='sm:h-[85vh] img-box hover:scale-105 transition duration-[0.9s] rounded-lg object-cover' src={img8} alt='Modern Payment Website'/>
     <div>  
     </div>
     </div>
 
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col '>
-    <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg sm:h-[65vh] object-cover lg:h-[40vh]' src={img9} alt='Modern Payment Website'/>    
+    <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg hover:scale-105 transition duration-[0.9s] sm:h-[65vh] object-cover lg:h-[40vh]' src={img9} alt='Modern Payment Website'/>    
     </div>
 
     <div className='w-full sm:w-6/12 lg:w-full'>
@@ -175,16 +207,16 @@ const Project = () => {
     </div>  
     </div> 
 
-    <div className="nftlanding flex flex-col lg:flex-row-reverse gap-4 sm:gap-8 pb-16 sm:pb-24 ">
-    <div className='w-full lg:w-8/12 '>
-    <Image className='sm:h-[85vh] s shadow-2xl rounded-lg object-cover' src={img10} alt='Entire-studios'/>
+    <div className="nftlanding flex flex-col lg:flex-row gap-4 sm:gap-8 pb-16 sm:pb-24 ">
+    <div className='w-full rounded-lg relative overflow-hidden lg:w-8/12 '>
+    <Image className='sm:h-[85vh] hover:scale-105 transition duration-[0.9s] shadow-2xl rounded-lg object-cover' src={img10} alt='Entire-studios'/>
     <div>  
     </div>
     </div>
 
     <div className='w-full lg:w-6/12 flex flex-col sm:flex-row gap-4 lg:gap-0 lg:flex-col '>
-    <div className='w-full sm:w-6/12 lg:w-full'>
-    <Image className='rounded-lg img-box sm:h-[65vh] object-cover lg:h-[40vh]' src={img11} alt='Entire-studios'/>    
+    <div className='w-full rounded-lg relative overflow-hidden sm:w-6/12 lg:w-full'>
+    <Image className='rounded-lg img-box hover:scale-105 transition duration-[0.9s] sm:h-[65vh] object-cover lg:h-[40vh]' src={img11} alt='Entire-studios'/>    
     </div>
    
     <div className='w-full sm:w-6/12 lg:w-full'>
