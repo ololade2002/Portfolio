@@ -12,7 +12,7 @@ export default function Home() {
 
    <div className="relative  z-30 md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
    <div className="flex flex-col  justify-center gap-4">
-   <h2 className="text-[2.8rem] font-[700]">Ololade Eleja .</h2>
+   <h2 className="text-[2.8rem] text-white dark:text-red-600 font-[700]">Ololade Eleja .</h2>
  
    <p className=" leading-8">Hi, I&apos;m Ololade Eleja, a passionate Frontend Developer with a knack 
     for crafting immersive web experiences. I thrive on turning creative ideas into polished,
