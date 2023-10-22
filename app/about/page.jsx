@@ -10,12 +10,10 @@ import {BiGitBranch} from 'react-icons/bi'
 
 const About = () => {
   return (
-    <div>
-
-  
+    <div className='bg-black'>
 
   <div className=" md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
-   <div className="flex flex-col gap-4">
+   <div className="flex flex-col gap-4 text-white ">
    <h2 className="text-4xl font-medium">About Me.</h2>
    <p>Hello, I&apos;m Ololade Eleja,a passionate and skilled Front-end Developer with a creative flair for crafting
     engaging and user-friendly web experiences. I am constantly seeking new challenges and opportunities to improve my craft.
@@ -33,42 +31,42 @@ const About = () => {
    </div>
 
    <div className='py-6'>
-    <h2 className='pb-4 text-lg'>Technologies i currently work with :</h2>
-    <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 '>
+    <h2 className='pb-4 text-lg text-white'>Technologies i currently work with :</h2>
+    <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 text-white  '>
 
-    <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><FaHtml5 className='w-14 h-14'/><p>HTML</p>
+    <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><FaHtml5 className='w-14 h-14'/><p>HTML</p>
     </div>   
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><IoLogoCss3 className='w-14 h-14'/> <p className='text-center'>CSS</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><IoLogoCss3 className='w-14 h-14'/> <p className='text-center'>CSS</p>
      </div>   
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><IoLogoJavascript className='w-14 h-14'/><p className='text-center'>Javascript</p></div>  
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><IoLogoJavascript className='w-14 h-14'/><p className='text-center'>Javascript</p></div>  
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><FaReact className='w-14 h-14'/> <p className='text-center'>React JS</p>    
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><FaReact className='w-14 h-14'/> <p className='text-center'>React JS</p>    
     </div>  
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'> <TbBrandNextjs className='w-14 h-14'/> <p className='text-center'>Next JS</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'> <TbBrandNextjs className='w-14 h-14'/> <p className='text-center'>Next JS</p>
      </div>   
 
-     <div className='uppercase flex flex-col items-center justify-center px-6 gap-2 py-3 bg-zinc-900'><SiTailwindcss className='w-14 h-14'/><p className='text-center'>Tailwind CSS</p>    
+     <div className='uppercase flex flex-col items-center justify-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><SiTailwindcss className='w-14 h-14'/><p className='text-center'>Tailwind CSS</p>    
     </div>  
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><SiBootstrap className='w-14 h-14'/>  <p className='text-center'>Bootstrap</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><SiBootstrap className='w-14 h-14'/>  <p className='text-center'>Bootstrap</p>
     </div>   
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><SiStyledcomponents className='w-14 h-14'/> <p className='text-center'>Styled Components</p>    
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><SiStyledcomponents className='w-14 h-14'/> <p className='text-center'>Styled Components</p>    
     </div>   
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><SiSanity className='w-14 h-14'/><p className='text-center'> Sanity io</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><SiSanity className='w-14 h-14'/><p className='text-center'> Sanity io</p>
      </div>   
      
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'> <SiRedux className='w-14 h-14'/> <p className='text-center'>React Redux</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'> <SiRedux className='w-14 h-14'/> <p className='text-center'>React Redux</p>
     </div>
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'> <BiGitBranch className='w-14 h-14'/> <p className='text-center'>Git</p>
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'> <BiGitBranch className='w-14 h-14'/> <p className='text-center'>Git</p>
     </div>   
 
-     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900'><BsGithub className='w-14 h-14'/><p className='text-center'>GitHub</p>    
+     <div className='uppercase flex flex-col items-center px-6 gap-2 py-3 bg-zinc-900 text-white rounded-sm'><BsGithub className='w-14 h-14'/><p className='text-center'>GitHub</p>    
     </div>   
     </div>
    </div>

@@ -10,15 +10,15 @@ const Navbar = () => {
   const [mobile,setMobile] = useState(false)
 
   return (
-  <div className='relative z-50'>
+  <div className='relative z-50 '>
      <div className='px-4 sm:px-8 md:px-12 lg:px-2 md:max-w-7xl mx-auto py-6 '>
      <div>
       
-     <div className='flex flex-row items-center justify-between'>
+     <div className='flex flex-row items-center justify-between  text-white '>
 
      <div className='z-50'>
      <Link className='flex flex-col' href='/'>  
-     <p className='text-lg'>ololadeeleja</p>
+     <p className='text-lg '>ololadeeleja</p>
      </Link>  
      </div>
      

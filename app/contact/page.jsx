@@ -7,13 +7,13 @@ const Contact = () => {
     <div>
       
     <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
-    <div>
+    <div className="text-white">
     <h2 className=" text-4xl font-medium">Get in touch</h2>
     <p className="pt-3 pb-10">Thank you for visiting my portfolio! If you&apos;d like to get in touch, I&apos;d love to hear from you.
     Whether you have a project in mind, a job opportunity, or just want to say hello, 
     feel free to reach out .</p>
 
-    <Link  href='mailto:elejaololadee@gmail.com' className="px-6 py-3 text-center width-f  ring-2 ring-white rounded-md">Send An Email</Link>  
+    <Link  href='mailto:elejaololadee@gmail.com' className="px-6 py-3 text-center width-f hover:ring-2 ring-1 ring-white rounded-md">Send An Email</Link>  
 
     <div className="pt-10 ">
     <p> I look forward to connecting with you and discussing how I can help you
