@@ -25,7 +25,7 @@ const Contact = () => {
     <div className="pt-8">
     <div className="flex flex-wrap gap-x-8 gap-y-3 ">
     <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://github.com/ololade2002'><AiFillGithub className='w-5 h-5'/>  Github</Link>
-    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://www.linkedin.com/in/eleja-ololade-a24ab81b2/'><AiFillLinkedin className='w-5 h-5'/> Linkedin</Link>
+    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://www.linkedin.com/in/ololade-eleja-a24ab81b2/'><AiFillLinkedin className='w-5 h-5'/> Linkedin</Link>
     <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://twitter.com/lolade_ee'><AiOutlineTwitter className='w-5 h-5'/> Twitter</Link>
     <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://www.instagram.com/lolade.e/'><AiOutlineInstagram className='w-5 h-5'/> Instagram</Link>
     </div>
