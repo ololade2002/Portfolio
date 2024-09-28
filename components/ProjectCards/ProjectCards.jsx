@@ -15,8 +15,8 @@ const ProjectCards = () => {
   }, []);
 
   return (
-    <section>
-      <div className='grid grid-cols-3 gap-y-12 gap-x-6'>
+    <section className=' z-10 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-6'>
         {projectSectionData.map((project) => (
           <div className="card" key={project.id}>
             <div className="card-inner" style={{ "--clr": "#fff" }}>
@@ -34,8 +34,8 @@ const ProjectCards = () => {
               </div>
             </div>
 
-            <Link href={`projects/${project.id}`} className='flex flex-row gap-2 hover:text-red-700 items-center justify-center'>
-              <h2 className='font-rale font-[500] text-[18px] py-4 pl-4 capitalize'>{project.title}</h2>
+            <Link href={`projects/${project.id}`} className='flex flex-col xxs:flex-row xxs:gap-2 hover:text-red-700 items-center justify-center'>
+              <h2 className='font-rale font-[500] text-[18px] pt-2 xxs:py-4 pl-4 capitalize'>{project.title}</h2>
               <BsDashLg className='text-black hover:text-red-500' />
               <h2 className='font-rale font-[500] text-[18px]'>{project.text1}</h2>
             </Link>

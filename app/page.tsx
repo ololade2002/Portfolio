@@ -48,12 +48,12 @@ export default function Home() {
       </div>
      </Link>
 
-     <Link href='/contact' className=" bg-[#f8afa6] order-5 md:order-5 lg:col-span-3 px-3 md:px-4 py-3 flex flex-col justify-between rounded-lg">
+     <Link href='/contact' className=" h-[30vh] md:h-full bg-[#f8afa6] order-5 md:order-5 lg:col-span-3 px-3 md:px-4 py-3 flex flex-col justify-between rounded-lg">
       <div className="flex flex-row justify-between items-center">
         <h2 className="font-rale font-[500] text-[16px]">Have some questions ?</h2>
-        <Link href='/contact'>
+        <div >
         <MdOutlineArrowOutward className='w-6 h-6 hover:text-red-700' />
-        </Link>
+        </div>
       </div>
       <div>
         <h2 className="text-[35px] font-[500] capitalize font-rale">Contact me</h2>

@@ -15,7 +15,7 @@ const About = () => {
   <div className=" md:max-w-4xl  px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
    <div className="flex flex-col gap-4 text-black font-rale ">
    <p className='text-[18px] md:text-[17px] pt-2'>Hello, I&apos;m Ololade Eleja,a passionate and skilled Front-end Developer based in Lagos, Nigeria. 
-   I have a creative flair for crafting engaging, intuitive, and user-friendly web experiences. I'm always eager to take on new challenges
+   I have a creative flair for crafting engaging, intuitive, and user-friendly web experiences. I&apos;m always eager to take on new challenges
    and continuously improve my craft.
    </p>
    <p className='text-[18px] md:text-[17px]'>In addition to my work in web development, I am currently pursuing a degree in Petroleum and Gas Engineering

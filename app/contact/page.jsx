@@ -5,7 +5,6 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      
     <div className="md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
     <div className="text-black">
     <h2 className=" text-4xl font-medium font-rale">Get in touch</h2>

@@ -10,7 +10,7 @@ const Navbar = () => {
   const [mobile,setMobile] = useState(false)
 
   return (
-  <div className='w-[95%] md:w-[97%] rounded-lg mt-4 mx-auto bg-[#fadcd9] '>
+  <div className='w-[95%] z-50 md:w-[97%] rounded-lg mt-4 mx-auto bg-[#fadcd9] '>
      <div className='px-4 sm:px-8 md:px-12 lg:px-2 md:max-w-7xl mx-auto py-3 '>
      <div>
       

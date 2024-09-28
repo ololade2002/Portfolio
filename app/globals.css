@@ -61,7 +61,7 @@ display: none;
   gap: 2rem;
   top: 0rem;
   left: 0;
-  
+  z-index: 2;
 }
 }
 
