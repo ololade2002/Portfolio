@@ -1,15 +1,28 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import {  Raleway } from 'next/font/google'
+import {  Raleway, Aboreto, Gilda_Display } from 'next/font/google'
 import  Navbar  from '@/components/Navbar/Navbar'
 
 const raleway = Raleway({
   weight: ['100','200','300','400','500','600','700','800','900'],
   subsets: ['latin'],
   display: 'swap',
+  variable:'--font-rale'
 })
  
+const aboreto = Aboreto({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable:'--font-aboreto'
+})
 
+const gilda = Gilda_Display({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable:'--font-gilda'
+})
 
 
 export const metadata: Metadata = {
@@ -24,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>
+      <body className={`${raleway.variable} ${aboreto.variable} ${gilda.variable}`}>
         <Navbar/>
         {children}
         </body>

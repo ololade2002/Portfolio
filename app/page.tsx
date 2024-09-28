@@ -1,46 +1,68 @@
 import Image from "next/image"
+import flowerIcon from '@/public/FLOWER ICON.png'
+import circleIcon from '@/public/Vector.png'
+import img from '@/public/Lolade1.jpeg'
+import Accordion from '@/components/Accordion/Accordion'
 import Link from "next/link"
-import img from '@/public/bg1.jpg'
-import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai"
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 export default function Home() {
   return (
-   <div >
- 
-    <div className="absolute overflow-y-hidden top-0 left-0 w-[100%] h-[110vh] z-0 ">
-    <Image className="w-[100%] h-[200vh] md:h-[120vh] object-cover" src={img} alt="img"/> 
+   <div className="bg-[#f9f1f0] pb-4 md:pb-0 pt-4">
+
+   <div className="  w-[95%] md:w-[97%] mx-auto rounded-lg  ">  
+    <div className="grid gris-cols-1 md:grid-cols-3 lg:grid-cols-12 gap-4 ">
+
+     <div className=" flex flex-col order-1 md:order-1 gap-2 items-end bg-[#fadcd9]  lg:col-span-5 px-3 lg:px-6 py-4 rounded-lg ">
+      <div>
+        <Image className="w-16 object-cover " src={flowerIcon} alt="Flower Icon"/>
+      </div>
+      <div>
+        <h2 className="font-rale text-[24px] lg:text-[28px] capitalize font-[600]">Creating Pixel-Perfect Web Applications with Modern Frontend Technologies.</h2>
+      </div>
+     </div>
+
+     <div className=" bg-[#fadcd9] order-4 md:order-2 lg:col-span-2 rounded-lg ">
+      <Image className="rounded-lg w-full lg:h-[44vh] object-cover object-center " src={img} alt='image'/>
+     </div>
+
+     <div className=" bg-[#f9f1f0] order-3 md:order-3 lg:col-span-5 row-span-2 h-[100%]  gap-4 flex flex-col rounded-lg ">
+      <div className="bg-[#fadcd9] rounded-lg  ">
+        <Accordion  />
+      </div>
+      <div className="bg-[#fadcd9] flex py-3 px-2 lg:px-16 flex-row font-rale justify-between rounded-lg">
+        <Link href='https://github.com/ololade2002' className="font-rale text-[14px] font-[600] hover:text-red-500">GITHUB</Link>
+        <Link href='https://www.linkedin.com/in/ololade-eleja-a24ab81b2/' className="font-rale text-[14px] font-[600] hover:text-red-500">LINKEDIN</Link>
+        <Link href='https://www.instagram.com/lolade.e/' className="font-rale text-[14px] font-[600] hover:text-red-500">INSTAGRAM</Link>
+      </div>
+     </div>
+
+     <Link href='/about' className=" bg-[#fadcd9] order-2 md:order-4 lg:col-span-4 hover:bg-[#f6cac6] px-3 lg:px-6 py-4 gap-12 flex flex-col rounded-lg">
+      <div>
+        <Image className="w-8 " src={circleIcon} alt='Circle Icon'/>
+      </div>
+      <div>
+        <h2 className="font-rale font-[500] pt-2 text-[17px]">Hello, I&apos;m Ololade Eleja, a frontend developer with a passion for building engaging
+           and intuitive web experiences. I love bringing creative ideas to ....
+        </h2>
+      </div>
+     </Link>
+
+     <Link href='/contact' className=" bg-[#f8afa6] order-5 md:order-5 lg:col-span-3 px-3 md:px-4 py-3 flex flex-col justify-between rounded-lg">
+      <div className="flex flex-row justify-between items-center">
+        <h2 className="font-rale font-[500] text-[16px]">Have some questions ?</h2>
+        <Link href='/contact'>
+        <MdOutlineArrowOutward className='w-6 h-6 hover:text-red-700' />
+        </Link>
+      </div>
+      <div>
+        <h2 className="text-[35px] font-[500] capitalize font-rale">Contact me</h2>
+      </div>
+     </Link>
+
     </div>
-  
-   <div className="relative  z-30 md:max-w-2xl px-4 sm:px-8 md:px-0 mx-auto py-12 sm:py-14">
-   <div className="flex flex-col  justify-center gap-4">
-   <h2 className="text-[2.8rem] text-white font-[700]">Ololade Eleja .</h2>
- 
-   <p className="text-white leading-8">Hi, I&apos;m Ololade Eleja, a passionate Frontend Developer with a knack 
-    for crafting immersive web experiences. I thrive on turning creative ideas into polished,
-     user-friendly websites that not only look great but also function seamlessly.
-     With 1 year and some months of hands-on experience in the ever-evolving world of web development,
-      I&apos;m dedicated to staying at the forefront of cutting-edge technologies to deliver top-notch solutions.</p>
-   
-
-   <div className="flex flex-row gap-4 py-5">
-    <Link className="bg-white text-black px-5 hover:ring-1 hover:bg-transparent hover:ring-white hover:text-white flex items-center py-2 font-medium" href="/ELEJA OLOLADE Resume.pdf" passHref>
-      Download Resume
-      </Link>
-    <Link href='/contact' className="px-8 py-2 border text-white  hover:border-2">Contact</Link>
-   </div>
-
-   <div className="pt-4 md:pt-8 text-white ">
-    <h1 className="text-lg pb-2 mode">Find me on</h1>
-    <div className="flex flex-wrap gap-y-4 gap-x-6 mode">
-    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://github.com/ololade2002'><AiFillGithub className='w-5 h-5'/>  Github</Link>
-    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://www.linkedin.com/in/ololade-eleja-a24ab81b2/'><AiFillLinkedin className='w-5 h-5'/> Linkedin</Link>
-    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://twitter.com/lolade_ee'><AiOutlineTwitter className='w-5 h-5'/> Twitter</Link>
-    <Link className="flex gap-1.5 items-center hover:text-blue-500" href='https://www.instagram.com/lolade.e/'><AiOutlineInstagram className='w-5 h-5'/> Instagram</Link>
-    </div>
-   </div>
-   </div>
-
    </div>
    </div>
   )
 }
+
